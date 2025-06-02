@@ -1,3 +1,5 @@
+# SOLVED AFTER UPGRADING TO `0.14.7`
+
 # Meilisearch OKHTTP
 
 Using version `0.14.6` of dependency `meilisearch-java`
