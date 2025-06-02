@@ -1,8 +1,10 @@
 # Meilisearch OKHTTP
 
+Using version `0.14.6` of dependency `meilisearch-java`
+
 Running `mvn clean install`, and then `mvn dependency:tree` gives this:
 ``` Maven
-[INFO] \- com.meilisearch.sdk:meilisearch-java:jar:0.14.4:compile
+[INFO] \- com.meilisearch.sdk:meilisearch-java:jar:0.14.6:compile
 [INFO]    +- com.squareup.okhttp3:okhttp:jar:5.0.0-alpha.16:compile
 ```
 When in reality it should resolve to `4.12.0`.
@@ -68,7 +70,7 @@ Full result of `mvn dependency:tree`:
 [INFO] |  |  \- com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1:test
 [INFO] |  +- org.springframework:spring-test:jar:6.2.7:test
 [INFO] |  \- org.xmlunit:xmlunit-core:jar:2.10.1:test
-[INFO] \- com.meilisearch.sdk:meilisearch-java:jar:0.14.4:compile
+[INFO] \- com.meilisearch.sdk:meilisearch-java:jar:0.14.6:compile
 [INFO]    +- com.squareup.okhttp3:okhttp:jar:5.0.0-alpha.16:compile
 [INFO]    |  +- org.jetbrains.kotlin:kotlin-stdlib:jar:1.9.25:runtime
 [INFO]    |  |  \- org.jetbrains:annotations:jar:13.0:runtime
@@ -84,8 +86,8 @@ Full result of `mvn dependency:tree`:
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  3.556 s
-[INFO] Finished at: 2025-05-30T12:12:56+02:00
+[INFO] Total time:  4.739 s
+[INFO] Finished at: 2025-06-02T08:56:09+02:00
 [INFO] ------------------------------------------------------------------------
 
 Process finished with exit code 0
