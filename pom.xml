@@ -45,7 +45,7 @@
         <dependency>
             <groupId>com.meilisearch.sdk</groupId>
             <artifactId>meilisearch-java</artifactId>
-            <version>0.14.6</version>
+            <version>0.14.7</version>
         </dependency>
     </dependencies>
 
